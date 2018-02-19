@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <include layout="@layout/layout_include_menu_homescreen_programbic" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+            <include layout="@layout/layout_include_menu_homescreen_diagnosisjurusan" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+            <include layout="@layout/layout_include_menu_homescreen_tespsikologi" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <include layout="@layout/layout_include_menu_homescreen_tesiq" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+            <include layout="@layout/layout_include_menu_homescreen_bimbelbic" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+            <include layout="@layout/layout_include_menu_homescreen_tryoutonline" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <include layout="@layout/layout_include_menu_homescreen_gradejurusan" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+            <include layout="@layout/layout_include_menu_homescreen_pengumuman" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+            <include layout="@layout/layout_include_menu_homescreen_infobeasiswa" android:layout_width="@dimen/dimens_widthheighcardhome" android:layout_height="@dimen/dimens_widthheighcardhome" android:layout_margin="@dimen/dimens_margincardinclude"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

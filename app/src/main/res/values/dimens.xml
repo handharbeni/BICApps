@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_widthheighcardhome">110dp</dimen>
+    <dimen name="dimens_margincardhome">2dp</dimen>
+    <dimen name="dimens_margincardinclude">5dp</dimen>
+</resources>

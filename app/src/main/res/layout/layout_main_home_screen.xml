@@ -16,7 +16,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <android.support.v7.widget.RecyclerView
+    <include
+        layout="@layout/layout_include_menu_homescreen"
         android:id="@+id/listmenu"
         android:layout_width="0dp"
         android:layout_height="0dp"

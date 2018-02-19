@@ -27,4 +27,5 @@ dependencies {
     implementation 'com.stepstone.stepper:material-stepper:3.2.3'
     implementation 'illiyin.mhandharbeni.imageslider:library:0.0.2'
     implementation 'illiyin.mhandharbeni.stepview:library:0.0.1'
+    implementation 'com.android.support:design:26.1.0'
 }
