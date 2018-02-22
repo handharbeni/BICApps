@@ -21,7 +21,8 @@
         app:ms_activeStepColor="@color/colorPrimary"
         app:ms_backButtonColor="@color/darkBlack"
         app:ms_nextButtonColor="@color/colorPrimary"
-        app:ms_completeButtonColor="@color/colorPrimary"
+        app:ms_completeButtonColor="@color/ms_white"
+        app:ms_completeButtonBackground="@color/colorPrimary"
         app:ms_inactiveStepColor="@color/colorAccent">
     </com.stepstone.stepper.StepperLayout>
 </android.support.constraint.ConstraintLayout>
